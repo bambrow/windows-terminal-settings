@@ -70,6 +70,14 @@
                 "icon": "ms-appdata:///roaming/vagrant.png",
                 "colorScheme": "Solarized Dark Higher Contrast",
                 "commandline": "powershell.exe ssh -i D:/vagrant/ubuntu/.vagrant/machines/default/virtualbox/private_key -p 2222 localhost -l vagrant"
+            },
+            {
+                "guid": "{bc44bb4a-d8cc-4752-8eed-08116be36384}",
+                "hidden": false,
+                "name": "Vagrant-CentOS-7",
+                "icon": "ms-appdata:///roaming/vagrant.png",
+                "colorScheme": "Solarized Dark Higher Contrast",
+                "commandline": "powershell.exe ssh -i D:/vagrant/centos/.vagrant/machines/default/virtualbox/private_key -p 2223 localhost -l vagrant"
             }
         ]
     },
