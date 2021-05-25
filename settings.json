@@ -48,7 +48,7 @@
                 "guid": "{615cc14f-0f22-4ab2-8018-69d9b85289d4}",
                 "name": "命令提示符",
                 "commandline": "cmd.exe",
-                "hidden": true
+                "hidden": false
             },
             {
                 "guid": "{e2d82507-2523-4e22-a59e-2b43ae39bf0e}",
@@ -122,12 +122,12 @@
         { "command": "paste", "keys": "ctrl+v" },
 
         // Press Ctrl+Shift+F to open the search box
-        { "command": "find", "keys": "ctrl+shift+f" },
+        { "command": "find", "keys": "ctrl+f" },
 
         // Press Alt+Shift+D to open a new pane.
         // - "split": "auto" makes this pane open in the direction that provides the most surface area.
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
         // To learn more about panes, visit https://aka.ms/terminal-panes
-        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "ctrl+t" }
     ]
 }
