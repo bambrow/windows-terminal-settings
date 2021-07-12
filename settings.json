@@ -66,7 +66,7 @@
             {
                 "guid": "{74d07eb7-31fc-4f58-8c73-325c8c7b3e3c}",
                 "hidden": false,
-                "name": "Vagrant-Ubuntu-16.04",
+                "name": "Vagrant-Ubuntu-18.04",
                 "icon": "ms-appdata:///roaming/vagrant.png",
                 "colorScheme": "Solarized Dark Higher Contrast",
                 "commandline": "powershell.exe ssh -i D:/vagrant/ubuntu/.vagrant/machines/default/virtualbox/private_key -p 2222 localhost -l vagrant"
